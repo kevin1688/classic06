@@ -76,10 +76,13 @@ struct ContentView: View {
                 .padding(.bottom,30)
                 .animation(.default)
             
-            Rectangle()
+            Image(systemName: "suit.heart.fill")
+                .resizable()
                 .frame(width: onOff ? 50 : 100 , height: onOff ? 50 : 100, alignment: .center)
                 .foregroundColor(Color.red)
                 .padding(.bottom,30)
+                .animation(.default)
+            
                 
             Button {
                 onOff.toggle()
