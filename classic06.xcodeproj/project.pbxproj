@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66317064270353C300873F44 /* DemoTransData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66317063270353C300873F44 /* DemoTransData.swift */; };
 		6648208226FE050500E4D9F8 /* classic06App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648208126FE050500E4D9F8 /* classic06App.swift */; };
 		6648208426FE050500E4D9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648208326FE050500E4D9F8 /* ContentView.swift */; };
 		6648208626FE050700E4D9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6648208526FE050700E4D9F8 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66317063270353C300873F44 /* DemoTransData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTransData.swift; sourceTree = "<group>"; };
 		6648207E26FE050500E4D9F8 /* classic06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = classic06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6648208126FE050500E4D9F8 /* classic06App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classic06App.swift; sourceTree = "<group>"; };
 		6648208326FE050500E4D9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				6648208126FE050500E4D9F8 /* classic06App.swift */,
 				6648208326FE050500E4D9F8 /* ContentView.swift */,
+				66317063270353C300873F44 /* DemoTransData.swift */,
 				6648209026FE055300E4D9F8 /* DataModel.swift */,
 				6648208526FE050700E4D9F8 /* Assets.xcassets */,
 				6648208A26FE050700E4D9F8 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6648208426FE050500E4D9F8 /* ContentView.swift in Sources */,
+				66317064270353C300873F44 /* DemoTransData.swift in Sources */,
 				6648208226FE050500E4D9F8 /* classic06App.swift in Sources */,
 				6648209126FE055300E4D9F8 /* DataModel.swift in Sources */,
 			);

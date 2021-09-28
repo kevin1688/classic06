@@ -9,4 +9,7 @@ import SwiftUI
 
 class Age:ObservableObject  {  //資料的框架
     @Published var number:Int = 0
+    @Published var name = ""
+    @Published var name1 = ""
+    @Published var name2 = ""
 }
